@@ -1,18 +1,19 @@
 import java.util.Queue;
 import java.util.Stack;
 
-public class Util {
-    public static void inverterFila(Queue<Integer> fila) {
+public class Pilha {
+    public static void inverterEImprimir(Queue<Integer> fila) {
         Stack<Integer> pilha = new Stack<>();
 
-        // Esvazia a fila e preenche a pilha
         while (!fila.isEmpty()) {
             pilha.push(fila.poll());
         }
 
-        // Esvazia a pilha e preenche a fila na ordem inversa
+        //limpa a pilha e preenche a fila na ordem inversa
         while (!pilha.isEmpty()) {
             fila.add(pilha.pop());
         }
+
+        System.out.println(fila);
     }
 }
