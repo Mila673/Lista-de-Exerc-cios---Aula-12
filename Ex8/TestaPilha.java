@@ -1,3 +1,5 @@
+package Ex8;
+
 import java.util.Random;
 import java.util.Stack;
 

@@ -1,3 +1,4 @@
+package Ex6;
 import java.util.Queue;
 import java.util.Stack;
 

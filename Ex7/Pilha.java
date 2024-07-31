@@ -1,3 +1,5 @@
+package Ex7;
+
 import java.util.Queue;
 import java.util.Stack;
 
